@@ -1,21 +1,23 @@
 {
-  "name": "wikistack",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon /Users/annasimon/wikistack/app.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "html-template-tag": "^3.2.0",
-    "morgan": "^1.10.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.12"
-  }
+	"name": "wikistack",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon /Users/jeongyeonchoi/wikistack/app.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"html-template-tag": "^3.2.0",
+		"morgan": "^1.10.0",
+		"pg": "^8.7.1",
+		"sequelize": "^6.6.5"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.12"
+	}
 }
